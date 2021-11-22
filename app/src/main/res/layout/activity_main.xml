@@ -93,16 +93,15 @@
     android:layout_gravity="center"
     android:layout_marginTop="5dp"
     />
+
     <ImageView
+        android:id="@+id/idIVMic"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_weight="1"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:src="@drawable/ic_mic"
-        app:tint="@color/yellow"
-        android:id="@+id/idIVMic"
-        />
+        app:tint="@color/yellow" />
 
     <TextView
         android:layout_width="match_parent"
@@ -115,6 +114,7 @@
         />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/idBtnTranslate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
